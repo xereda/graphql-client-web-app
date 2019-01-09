@@ -1,0 +1,9 @@
+query Feed($filter: String) {
+  feed(filter: $filter) {
+    links {
+      id
+      description
+      url
+    }
+  }
+}
